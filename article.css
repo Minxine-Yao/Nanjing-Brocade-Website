@@ -1,0 +1,226 @@
+body{
+	background: #f7fafa;
+
+}
+
+/*导航部分*/
+#nav-top{
+	background: white;
+}
+#nav-top li{
+	font-family: "FangSong","STFangSong";
+	text-align: center;
+	/*transition: background-color 0.75s;*/
+	/*font-weight: bolder;*/
+	color: #b3b3b3;
+}
+#nav-top li:hover{
+	background-color: #f7fafa;
+}
+#nav-top a{
+	font-family: inherit;
+	/*font-weight: bolder;*/
+	color: inherit;
+}
+#nav-header{
+	color: #5e838b;
+	font-size: 20px;
+	font-weight: bolder;
+}
+/*当前页面导航变色*/
+#bs-example-navbar-collapse-1 .current-link{
+	background-color: #f7fafa;
+	color: black;
+	/*position: relative;*/
+}
+
+#diwen_down{
+	display: block;
+	max-width: 100%;
+	position: fixed;
+	bottom: 0;
+	left: 10%;
+	/*left: 17.27%;*/
+}
+
+/*文章*/
+.article{
+	padding: 10px 20px 10px 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	border: 1px solid #decee0;
+	border-radius: 1.5px;
+	font-family: "Microsoft YaHei";
+	font-size: 15px;
+	color: #2c3f51;
+}
+h1,h2,h3{
+	font-weight: bold;
+}
+h2{
+	font-weight: bold;
+	margin: 1.2em 0 0.6em 0;
+	font-size: 2.15em;
+}
+blockquote{
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: rgba(102,128,153,0.05);
+	border-left: 10px solid rgba(102,128,153,0.075);
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	margin: 0 0 1.1em;
+}
+blockquote p{
+	font-size: .9em;
+	font-weight: 300;
+}
+p{
+	line-height: 1.5;
+	margin: 0 0 1.1em 0;
+	font-family: "Microsoft YaHei";
+	font-size: 15px;
+	color: #2c3f51;
+}
+.article li{
+	margin-bottom: 6px;
+}
+/*色彩表格*/
+#gov{
+	margin-bottom: 20px;
+}
+#gov td{
+	padding: 2px 7px;
+	/*text-align: center;*/
+	border: 1px solid #2c3f51;
+}
+#color{
+	width: 100%;
+}
+#color th,#color td{
+	text-align: center;
+	position: relative;
+	vertical-align: middle;
+	height: 60px;
+	font-family: "KaiTi","STKaiTi";
+	font-size:20px; 
+	/*padding-bottom: 20px;*/
+}
+.color{
+	display: inline-block;
+	margin-top: 10px;
+	height: 40px;
+	width: 40px;
+	border-radius: 20px;
+	/*display: none;*/
+	/*margin-top: 5px;*/
+}
+.colorName{
+	display: inline-block;
+	position: relative;
+	bottom: 10px;
+}
+.tri-words{
+	padding-left: 20px;
+}
+.caution{
+	color: gray;
+	display: block;
+	width: 100%;
+	text-align: right;
+	margin-top: 20px; 
+}
+/*当代传人*/
+.col-md-3{
+	padding-left: 10px;
+	padding-right: 20px;
+}
+.row{
+	overflow: hidden;
+	margin-bottom: 20px;
+}
+.person{
+	background-color: white;
+	border-radius: 1.5px;
+	border: 1px solid #decee0;
+	padding: 10px 20px;
+	text-align: center;
+	height: 100%;
+	padding-bottom:2000px;
+	margin-bottom:-2000px;
+}
+.head{
+	margin-top: 20px;
+}
+.name{
+	margin-top: 20px;
+}
+.name,.status{
+	display: block;
+	font-family: "KaiTi","Microsoft YaHei";
+	font-size: 30px;
+	font-weight: bold;
+}
+.status{
+	font-size: 25px;
+	font-weight: normal;
+}
+.status:before{
+	/*content: "·";*/
+	display: block;
+}
+.reputation{
+	display: block;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 5px;
+	text-align: center;
+}
+.reputation li{
+	list-style: none;
+	display: inline-block;
+	float: left;
+	background: rgba(102,128,153,0.05);
+	padding: 5px 10px;
+	margin-right: 10px;
+	margin-top: 3px;
+	color: #2c3f51;
+	font-family: "Microsoft YaHei";
+	/*color: gray;*/
+	/*color: rgba(102,128,153);*/
+}
+.intro{
+	width: 100%;
+	margin-top: 20px;
+	padding-left: 1%;
+	padding-right: 1%;
+	text-align: left;
+}
+/*当代传人处的资料和图片来源声明*/
+#person-caution{
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+/*八年申遗资料来源声明*/
+#sy-caution{
+	display: block;
+	width: 100%;
+	text-align: right;
+	color: gray;
+}
+/*云锦其锦视频*/
+#video-1,#video-2{
+	text-align: center;
+	margin-top: 30px;
+}
+#video-1 video,#video-2 video{
+	display: inline-block;
+}
+#video-1 span,#video-2 span{
+	display: block;
+	width: 100%;
+	margin-top: 10px;
+	text-align: center;
+}

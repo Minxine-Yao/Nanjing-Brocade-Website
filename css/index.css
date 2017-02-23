@@ -1,0 +1,116 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*背景*/
+body{
+	background-image: url("../img/bac.png");
+	background-color: #bdc3c4;
+	min-width: 1257px;
+	text-align: center;
+}
+#img_container{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	min-width: 1257px;
+
+}
+#main_container{
+	padding-bottom: 25px;
+}
+/*底纹*/
+#diwen_up{
+	position: absolute;
+	min-width: 822.96px;
+	left: 17.27%;
+	top: 0;
+}
+/*大标题*/
+#index_title{
+	/*position: absolute;*/
+/*	left: 19.79%;
+	top: 17.96%;
+*/	
+	position: relative;
+	/*top: 17.96%;*/
+	top: 200px;
+	min-width: 759.45px;
+
+}
+/*祥云*/
+#xiangyun{
+	position: absolute;
+	left: 80%;
+	top: 200px;
+
+	/*top: 150px;*/
+}
+/*索引部分*/
+#list_container{
+/*	position: relative;
+	top: 250px;
+*/
+	margin-top: 300px;
+}
+#index li{
+	font-size:60px;
+	line-height: 35px;
+	/*width: 1.0em;*/
+	float: right;
+	padding: 0 80px 0 80px;
+	border-left: 1px white solid;
+	list-style: none;
+	white-space: pre;
+	text-align: center;
+}
+#index li:first-child{
+	border-right: 1px white solid;
+}
+#index li a{
+	color: white;
+	text-decoration: none;
+	font-family: "KaiTi","STKaiti","FangSong","STFangSong";
+	font-size:35px;
+	font-weight: 900;
+}
+/*变色与圆点颜色*/
+#index li,#index a{transition: color 0.3s;}
+#index li:nth-child(1){color: #f05654;}
+#index li:nth-child(1) a:hover{color: #f05654;}
+#index li:nth-child(2){color:#b0a4e2;}
+#index li:nth-child(2) a:hover{color: #b0a4e2;}
+#index li:nth-child(3){color:#fff143;}
+#index li:nth-child(3) a:hover{color: #fff143;}
+#index li:nth-child(4){color:#70aa39;}
+#index li:nth-child(4) a:hover{color: #70aa39;}
+#index li:nth-child(5){color:#9d8cd3;}
+#index li:nth-child(5) a:hover{color: #9d8cd3;}
+/*清除浮动与居中*/
+#list_container{
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+#index{
+	display: inline-block;
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+/*版权小字部分*/
+#copyright{
+	height: 20px;
+	width: 100%;
+	min-width: 1257px;
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+}
+small{
+	display: inline-block;
+	min-width: 653.16px;
+	color: white;
+}
