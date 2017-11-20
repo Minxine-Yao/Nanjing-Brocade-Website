@@ -1,3 +1,7 @@
 # Nanjing-Brocade-Website
 
-* 大二暑期社会实践成果，一个完整的静态网页，设计&文字&代码all by myself.
+## Description
+Works of social practice during my summer vacation of sophomore.This is a static web page, I design and implement it.
+
+## How to browse it
+Clone this repository to local disk and open the file `index.html` at the root directory, there's a lot of information about Nanjing brocade, hope you enjoy it!
